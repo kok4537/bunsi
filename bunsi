@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>【論文タイトル】科学的発見とその背景</title>
+    <style>
+        /* 簡単なスタイルの定義（実際の開発では外部ファイルに記述します） */
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            background: #1e4a77;
+            color: white;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav ul {
+            padding: 0;
+            list-style: none;
+            text-align: center;
+            background: #333;
+            margin-bottom: 20px;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: inline-block;
+        }
+        nav ul li a:hover {
+            background-color: #555;
+        }
+        section {
+            padding: 20px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .figure-box {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .figure-box img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            color: #777;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <header>
+            <h1>【重要】新しい量子現象の観測と理論的背景に関する研究</h1>
+            <p>**著者:** 山田 太郎, 佐藤 花子 | **発表ジャーナル:** *Nature Physics*, 2025年</p>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#abstract">概要 (Abstract)</a></li>
+                <li><a href="#background">科学的背景</a></li>
+                <li><a href="#methods">実験方法</a></li>
+                <li><a href="#results">結果と考察</a></li>
+                <li><a href="#figure1">図1</a></li>
+                <li><a href="#references">参考文献</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="abstract">
+                <h2>1. 概要 (Abstract)</h2>
+                <p>本研究では、極低温環境下における特定の金属酸化物薄膜において、これまで予測されていなかった**トポロジカルな超伝導状態**を観測しました。この現象は、従来のBCS理論では説明が難しく、物質科学の新たなパラダイムを示唆しています。本論文では、観測結果と、その現象を記述するための新たな数理モデル（例えば、非エルミートなハミルトニアン $H_{eff}$ の導入）について詳述します。</p>
+            </section>
+
+            <section id="background">
+                <h2>2. 科学的背景</h2>
+                <h3>2.1. 従来の超伝導理論の限界</h3>
+                <p>超伝導は、電気抵抗がゼロになる現象であり、その理解は1957年のBCS理論に基づいています。しかし、高温超伝導体や非従来型超伝導体（ディラック電子系など）の発見により、既存の枠組みを超える現象が多数確認されています。特に、系の対称性の破れと電子相関が深く関わる**トポロジカル量子現象**への関心が高まっています。</p>
+                
+                <h3>2.2. 量子ホール効果とトポロジー</h3>
+                <p>トポロジーとは、形状が連続的に変形しても変わらない性質（不変量）を扱う数学分野です。物性物理学においては、系の電子バンド構造のトポロジーが、エッジ電流（端の導電性）などの特異な物理現象を引き起こします。本研究の物質は、トポロジカルな不変量 $\mathbb{Z}_2$ を持つことが理論的に示唆されていました。</p>
+            </section>
+
+            <section id="figure1">
+                <h2>3. 結果と図の提示</h2>
+                <div class="figure-box">
+                    <img src="figure1_placeholder.png" alt="観測された量子現象のグラフ" style="width: 600px; height: 350px; background-color: #ddd;">
+                    <p class="caption">**図1：** 特定の温度における電気抵抗と磁場強度の関係。量子化されたプラトー（平坦な領域）が観測されており、これがトポロジカルな超伝導状態の証拠となる。</p>
+                </div>
+            </section>
+
+            <section id="methods">
+                <h2>4. 実験方法</h2>
+                <p>試料は分子線エピタキシー（MBE）法を用いて作製されました。電気抵抗の測定は、ヘリウム3冷凍機を用い、最低温度 $T = 50 \text{mK}$ の環境下で実施されました。磁場は、超伝導マグネットにより最大 $B = 10 \text{T}$ まで印加しました。</p>
+            </section>
+            
+            <section id="references">
+                <h2>5. 参考文献</h2>
+                <ul>
+                    <li>[1] Bardeen, J., Cooper, L. N., & Schrieffer, J. R. (1957). *Phys. Rev.*, **108**(5), 1175.</li>
+                    <li>[2] Kane, C. L., & Mele, E. J. (2005). $\mathbb{Z}_2$ Topological Order and the Quantum Spin Hall Effect. *Phys. Rev. Lett.*, **95**(14), 146802.</li>
+                </ul>
+            </section>
+            
+        </main>
+
+        <footer>
+            <p>&copy; 2025 研究紹介ページ. 全ての権利を保有します。</p>
+        </footer>
+
+    </div>
+</body>
+</html>
